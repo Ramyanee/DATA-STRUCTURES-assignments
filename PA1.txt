@@ -1,0 +1,23 @@
+LEFT ROTATION
+
+	 A left rotation operation on an array of size n shifts each of the array's elements d unit to the left. 
+For example, if 2 left rotations are performed on array A=[1,2,3,4,5], then the array would become A=[3,4,5,1,2]. 
+
+Given an array of n integers and a number d perform d left rotations on the array. Then print the updated array as a single line of space-separated integers.
+
+
+
+A NUMBER BETWEEN A AND B
+
+	Consider two sets of positive integers, A and B. We say that a positive integer x is between sets A and B if the following conditions are satisfied:
+
+All elements in A are factors of x.
+x is a factor of all elements in B.
+
+In other words, some x is between A and B if
+
+x % A[i] =0 for  every element in A and
+B[i] % x = 0 for every element in B.
+
+For example, if A=[3,6] and B=[12,18], then our possible x values are 6 and 12.
+Given A and B, find and print the number of integers (i.e., possible x's) that are between the two sets.

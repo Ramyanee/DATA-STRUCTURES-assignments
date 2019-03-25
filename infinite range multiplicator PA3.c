@@ -8,6 +8,8 @@
 
 int pos1, pos2, flag1, flag2;
 
+//we will take two long numbers in linked list formats and try to manipulate the linked lists to find the product
+
 //declaration of the functions used
 void display(linked_list* head);
 void insert(linked_list** head, char x);
